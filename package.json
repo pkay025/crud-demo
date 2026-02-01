@@ -1,0 +1,26 @@
+{
+  "name": "crud-demo",
+  "version": "1.0.0",
+  "description": "Second official node js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkay025/crud-demo.git"
+  },
+  "author": "Emmanuel Nunoo Mensah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkay025/crud-demo/issues"
+  },
+  "homepage": "https://github.com/pkay025/crud-demo#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

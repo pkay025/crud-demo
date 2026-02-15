@@ -13,7 +13,6 @@ app.get('/', (req, res) => {
     })
 });
 
-// About route
 app.get('/about', (req, res) => {
     res.status(200).json({
         success: true,
@@ -27,7 +26,6 @@ app.get('/about', (req, res) => {
         }
     })
 });
-
 // Contact route
 const email = `nunoomensahemmanuel224@gmail.com`;
 const phone = "0257676119";
@@ -43,7 +41,6 @@ app.get('/contact', (req, res) => {
     })
 });
 
-// Skills route
 app.get('/skills', (req, res) => {
     res.status(200).json({
         success: true,
@@ -57,7 +54,6 @@ app.get('/skills', (req, res) => {
     })
 });
 
-// Fallback for unknown routes
 app.use((req, res) => {
     res.status(404).json({
         success: false,
@@ -65,7 +61,6 @@ app.use((req, res) => {
     })
 })
 
-// Error handling middleware
 app.use((err, req, res, next) => {
     console.error(err.stack)
     res.status(500).json({

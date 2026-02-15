@@ -1,4 +1,4 @@
-const express = require("express");
+import express from "express";
 const app = express();
 const port = 3000;
 
@@ -26,7 +26,7 @@ app.get('/about', (req, res) => {
         }
     })
 });
-// Contact route
+
 const email = `nunoomensahemmanuel224@gmail.com`;
 const phone = "0257676119";
 

@@ -5,10 +5,10 @@ const port = 3000;
 app.get('/', (req, res) => {
     res.status(200).json({
         success: true,
-        message: "Welcome to Emmanuel's personal API",
+        message: "Welcome to Emmanuel's linux-admin-lab",
         data: {
-            profession: "Software Engineer",
-            description: "I specialize in building of APIs and web applications"
+            profession: "System Administrator",
+            description: "I specialize in configuring computer systems and monitoring of server performance"
         }
     })
 });
